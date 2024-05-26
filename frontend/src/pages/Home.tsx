@@ -10,7 +10,7 @@ const Home: React.FC = () => {
             <Sidebar />
             <Navbar />
             <Chat />
-            <Input />
+            {/* <Input /> */}
         </>
     )
 }

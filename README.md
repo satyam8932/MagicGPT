@@ -30,6 +30,12 @@ MagicGPT is a versatile AI-powered application that allows users to engage in co
 - MongoDB
 - npm or yarn
 
+
+### Some points to note
+
+- Snake Case variables are fetched from request or any function
+- Camel Case variables are created by scratch 
+
 ### Installation
 
 1. **Clone the Repository**

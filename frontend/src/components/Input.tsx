@@ -2,8 +2,8 @@ import React from 'react';
 
 const Input: React.FC = () => {
     return (
-        <div className="fixed bottom-0 left-0 right-0 z-10">
-            <div className="container mx-auto max-w-6xl px-4 py-2 bg-white dark:bg-base-100">
+        <div className="fixed bottom-0 left-0 right-0 z-10 2xl:z-20">
+            <div className="container mx-auto max-w-4xl px-4 py-2 bg-white dark:bg-base-100">
                 <label className="input input-bordered flex items-center gap-2 justify-between">
                     <label htmlFor="file-input" className="cursor-pointer">
                     <input id="file-input" type="file" className="hidden" accept="image/png, image/jpeg, image/webp" />

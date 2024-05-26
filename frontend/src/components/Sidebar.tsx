@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
     return (
         <>
             <div className="drawer drawer-mobile">
