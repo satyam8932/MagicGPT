@@ -10,7 +10,7 @@ const createUserController = async (req, res) => {
         // Check if required user data is provided
         if (!user_name || !user_email || !user_password) {
             throw new Error("Please provide User Data");
-        } 
+        }
 
         // Create new user data entry
         const newUser = await createUserData(user_name, user_email, user_password);
